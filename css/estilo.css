@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+} 
+
+.contenedorpadre{
+    display: grid;
+
 }
 
 header{
@@ -9,9 +14,9 @@ header{
 
 }
 
-.contenedor,h1,p{
+.contenedor{
     color: rgb(255,255, 255) ;
-    
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -30,9 +35,42 @@ header{
     
     width: 95px;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
+    img{
+        width: 16px;
+        height: 16px;
+    }
+    
+}
+
+.botonh{
+    background-color: rgb(255, 212, 58);
+    border: 2px blue solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 17px;
+    
+
 }
 
 .hero{
-    display: flex;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+
+}
+
+.hero1{
+    border: 2px red solid;
+    height: 300px;
+    text-align: center;
+
+}
+
+.hero2{
+    border: 2px blue solid;
+
 }
