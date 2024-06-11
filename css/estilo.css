@@ -1,79 +1,97 @@
-*{
+/* Fuentes */
+body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-} 
-
-.contenedorpadre{
-    display: grid;
-
+    background-color: #FFE5E0; /* Fondo pastel */
+    color: #5A1A1A; /* Texto oscuro */
 }
 
-header{
-    background-color: rgb(195,49,59);
-    
-
+h1, h2, h4 {
+    font-family: 'Prompt', sans-serif;
 }
 
-.contenedor{
-    color: rgb(255,255, 255) ;
-    margin: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+/* Colores Pastel */
+.contenedorpadre {
+    background-color: #FFE5E0;
 }
 
-
-.cont1{
-    
+.contenedor {
     display: flex;
     justify-content: space-between;
-    width: 50%;
-}
-
-.lupa{
-    
-    width: 95px;
-    display: flex;
     align-items: center;
-    justify-content: flex-end;
-    img{
-        width: 16px;
-        height: 16px;
-    }
-    
+    padding: 20px;
+    background-color: #c3313b; /* Rojo */
 }
 
-.botonh{
-    background-color: rgb(255, 212, 58);
-    border: 2px blue solid;
+.contenedor h1 {
+    margin: 0;
+    color: #5A1A1A; /* Texto oscuro */
+}
+
+.cont1 {
     display: flex;
+    gap: 15px;
+}
+
+.cont1 p {
+    margin: 0;
+    cursor: pointer;
+    color: #5A1A1A;
+}
+
+.cont1 p:hover {
+    color: #D46A6A; /* Rojo pastel oscuro */
+}
+
+.lupa img {
+    width: 20px;
+    height: 20px;
+}
+
+.botonh a {
+    padding: 10px 20px;
+    background-color: #fac641;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botonh a:hover {
+    background-color: #FF6666;
+}
+
+.hero {
+    
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    padding: 5px 17px;
+
+}
+
+.hero1 {
+    max-width: 600px;
     
-
 }
 
-.hero{
-    background-color: rgb(195, 49, 59);
-    margin: 80px 150PX;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    
-
+.hero1 h1 {
+    color: #5A1A1A;
 }
 
-.hero1{
-    border: 2px red solid;
-    height: 300px;
-    text-align: center;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-
+.hero1 p {
+    color: #5A1A1A;
+    margin-top: 20px;
 }
 
-.hero2{
-    border: 2px blue solid;
-
+.hero1 a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF9999;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
+
+
