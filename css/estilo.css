@@ -88,7 +88,7 @@ h1, h2, h4 {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #FF9999;
+    background-image: url("C:\Users\meuge\Desktop\Fotógrafa profesional.png");
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -105,17 +105,19 @@ h1, h2, h4 {
 
 .about {
     padding: 50px 20px;
-    background-color: #FFD1D1; /* Rojo pastel claro */
+    background-color: #ffffff; /* Rojo pastel claro */
     text-align: center;
 }
 
+
+
 .about p {
     font-weight: bold;
-    color: #5A1A1A;
+    color: #c3323b;
 }
 
 .about h2 {
-    color: #5A1A1A;
+    color: #000000;
 }
 
 .about .cards {
@@ -127,20 +129,44 @@ h1, h2, h4 {
 }
 
 .about .card {
-    background-color: #FFFFFF;
-    border: 1px solid #FF9999;
+    background-color: #fff1ef;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 300px;
     text-align: left;
+    text-decoration: none;
+    
+}
+
+.about .card:hover{
+    background-color: #c3323b;
+
 }
 
 .about .card h4 {
     margin-top: 0;
-    color: #5A1A1A;
+    color: #000000;
 }
 
 .about .card p {
+    color: #000000;
+}
+
+/* Última sección */
+section:last-child {
+    padding: 50px 20px;
+    background-color: #FFE5E0; /* Fondo pastel */
+    text-align: center;
+}
+
+section:last-child p {
     color: #5A1A1A;
 }
+
+section:last-child h2 {
+    color: #5A1A1A;
+}
+
+
+
