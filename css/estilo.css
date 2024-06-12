@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #FFE5E0; /* Fondo pastel */
     color: #5A1A1A; /* Texto oscuro */
+    
 }
 
 h1, h2, h4 {
@@ -13,7 +14,7 @@ h1, h2, h4 {
 
 /* Colores Pastel */
 .contenedorpadre {
-    background-color: #FFE5E0;
+    background-color: #c3313b;
 }
 
 .contenedor {
@@ -57,21 +58,30 @@ h1, h2, h4 {
     border-radius: 5px;
 }
 
+
 .botonh a:hover {
-    background-color: #FF6666;
+    background-color: #000000;
+    color: #fac641;
 }
 
-.hero {
+.flecha{
+    width: 10px;
+    height: 10px;
+    
+}
+
+.hero{
     
     display: flex;
     padding: 50px 20px;
     justify-content: space-around;
     align-items: center;
-
+    background-image: url("C:/Users/meuge/Pictures/fondimg1.png");
 }
 
 .hero1 {
     max-width: 600px;
+    
     
 }
 
@@ -88,22 +98,24 @@ h1, h2, h4 {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-image: url("C:\Users\meuge\Desktop\Fotógrafa profesional.png");
-    color: white;
+    background-color: #fac641;
+    color: #000000;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .hero1 a:hover {
-    background-color: #FF6666;
+    background-color: #000000;
+    color: #fac641;
 }
+
 
 .hero2 img {
     max-width: 400px;
     border-radius: 10px;
 }
 
-.about {
+.servicios {
     padding: 50px 20px;
     background-color: #ffffff; /* Rojo pastel claro */
     text-align: center;
@@ -111,16 +123,16 @@ h1, h2, h4 {
 
 
 
-.about p {
+.servicios p {
     font-weight: bold;
     color: #c3323b;
 }
 
-.about h2 {
+.servicios h2 {
     color: #000000;
 }
 
-.about .cards {
+.servicios .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -128,7 +140,7 @@ h1, h2, h4 {
     margin-top: 20px;
 }
 
-.about .card {
+.servicios .card {
     background-color: #fff1ef;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -139,24 +151,24 @@ h1, h2, h4 {
     
 }
 
-.about .card:hover{
+.servicios .card:hover{
     background-color: #c3323b;
 
 }
 
-.about .card h4 {
+.servicios .card h4 {
     margin-top: 0;
     color: #000000;
 }
 
-.about .card p {
+.servicios .card p {
     color: #000000;
 }
 
 /* Última sección */
 section:last-child {
     padding: 50px 20px;
-    background-color: #FFE5E0; /* Fondo pastel */
+    background-color: #c3313b; /* Fondo pastel */
     text-align: center;
 }
 
@@ -168,5 +180,55 @@ section:last-child h2 {
     color: #5A1A1A;
 }
 
+.aboutp{
+    background-color: #c3323b;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    
+}
+
+.about img{
+    width: 190px;
+    height: 190px;
+
+}
+
+.about1 p{
+    color: #ffffff;
+}
+
+.about2 h2{
+    color: #ffffff;
+}
+
+.imgabout{
+    transform: translate(20px, 40px);
+}
+
+.project {
+    background-color: #fff1ef;
+    text-align: center;
+}
+
+.project1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 2px red solid;
+}
+
+.projectcard{
+    background-color: #ffffff;
+}
+
+
+
+
+.imgproyect{
+    width: 300px;
+    height: 270px;
+}
 
 
