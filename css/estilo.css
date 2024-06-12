@@ -77,6 +77,10 @@ h1, h2, h4 {
     justify-content: space-around;
     align-items: center;
     background-image: url("C:/Users/meuge/Pictures/fondimg1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid #ccc;
 }
 
 .hero1 {
@@ -114,6 +118,15 @@ h1, h2, h4 {
     max-width: 400px;
     border-radius: 10px;
 }
+
+.hero3{
+    background-color: #ffffff;
+    width: 230px;
+    height: 60px;
+    text-align: center;
+    transform: translate(0px,50px);
+}
+
 
 .servicios {
     padding: 50px 20px;
@@ -187,7 +200,7 @@ section:last-child h2 {
     display: flex;
     justify-content: center;
     margin: 80px;
-    
+        
 }
 
 .about img{
@@ -198,6 +211,7 @@ section:last-child h2 {
 
 .about1 p{
     color: #ffffff;
+    
 }
 
 .about2 h2{
@@ -231,4 +245,59 @@ section:last-child h2 {
     height: 270px;
 }
 
+footer{
+    background-color: #c3323b;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.footer-container div {
+    padding: 20px;
+}
+
+.footer-container .column-large {
+    flex: 2;
+}
+
+.footer-container .column-small {
+    flex:1;
+}
+
+.footer-container h2, .footer-container h4 {
+    color: #ffcc00;
+
+}
+
+.footer-container ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.footer-container ul li {
+    margin-bottom: 10px;
+}
+
+.footer-container a {
+    color: #ffcc00;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ffcc00;
+    border-radius: 5px;
+}
+
+.footer-container a:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
 
